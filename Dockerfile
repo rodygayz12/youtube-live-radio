@@ -1,7 +1,5 @@
 FROM alpine:3
 
-FROM python:3.9-slim-buster
-
 RUN pip install gunicorn==20.1.0
 
 RUN apk add --no-cache bash ffmpeg
